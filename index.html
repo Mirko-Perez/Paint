@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid-Paint</title>
+    <title>Paint</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,12 +18,20 @@
     </header>
 
     <main>
-        <h3>Seleccionar tamaño de fuente y color</h3>
-        <input type="color">
-        <input type="range" min="1" max="10">
+        
+        <div class="menu">
+            <h3>Seleccionar tamaño de fuente y color</h3>
+            <input type="color" id="color">
+            <input type="range" min="1" max="10" id="lw">
+            <input type="button" value="Reset" class="btn-reset">
+            <a id="download">
+                <input type="button" value="Download"  class="btn-descarga">
+            </a>
+        </div>
 
-        <div class="box">
 
+        <div class="conteiner-Canvas">
+            <canvas width="1200px" height="400px" class="canvas"></canvas>
         </div>
     </main>
 

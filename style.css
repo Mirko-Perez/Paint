@@ -13,6 +13,7 @@ body {
 
 img {
     width: 125px;  
+    margin-bottom: 10px;
 }
 
 .title {
@@ -23,15 +24,35 @@ img {
     display: flex;
     justify-content: center;
     background-color:#000;
-    padding-top: 20px;  
+    padding-top: 5px;  
     box-shadow: 2px 2px 5px 2px #fff;
 }
 
-.box{
-    width: 600px;
-    height: 600px;
+
+.conteiner-Canvas {
+    display: flex;
+    justify-content: center;
+}
+
+.canvas{
     background-color: #fff;
-    margin: auto;
     border: 1px solid #000;
 }
 
+.menu{
+    text-align: center;   
+    margin: 20px;
+}
+
+.btn-reset,
+.btn-descarga{
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 10%;
+}
+
+.btn-reset:hover,
+.btn-descarga:hover{
+    background-color:#333;
+    color:#fff;
+}
