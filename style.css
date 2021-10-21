@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+img {
+    width: 125px;  
+}
+
+.title {
+    color:#fff;
+    user-select: none;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    background-color:#000;
+    padding-top: 20px;  
+    box-shadow: 2px 2px 5px 15px #aaa;
+}
+
