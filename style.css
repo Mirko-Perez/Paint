@@ -6,6 +6,8 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    background-color:#333;
+    color:#fff;
 
 }
 
@@ -14,7 +16,6 @@ img {
 }
 
 .title {
-    color:#fff;
     user-select: none;
 }
 
@@ -23,6 +24,14 @@ img {
     justify-content: center;
     background-color:#000;
     padding-top: 20px;  
-    box-shadow: 2px 2px 5px 15px #aaa;
+    box-shadow: 2px 2px 5px 2px #fff;
+}
+
+.box{
+    width: 600px;
+    height: 600px;
+    background-color: #fff;
+    margin: auto;
+    border: 1px solid #000;
 }
 
