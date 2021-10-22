@@ -10,7 +10,7 @@ const reset=document.querySelector('.btn-reset');
 
 const descargar = document.querySelector(".btn-descarga");
 
-let painting, color, linewidth, difX,difY,link;
+let painting, color, linewidth, difX,difY;
 
 
 canvas.addEventListener("mousedown",e=>{
@@ -60,7 +60,7 @@ descargar.addEventListener("click",e=>{
         var blob = canvas.msToBlob();
         window.navigator.msSaveBlob(blob, filename + ".png" );// la extensión de preferencia pon jpg o png
     } else {
-        link = document.getElementById("download");
+        const link = document.getElementById("download");
         //Otros navegadores: Google chrome, Firefox etc...
         link.href = canvas.toDataURL("image/png");// Extensión .png ("image/png") --- Extension .jpg ("image/jpeg")
         link.download = filename;
