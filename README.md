@@ -1,2 +1,2 @@
-# Paint-Grid
+# Paint
  
